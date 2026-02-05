@@ -1,9 +1,9 @@
 from Tools import *
 
-# Import centralized Persian text utilities for consistent text rendering
+# Baraye centralized Persian text
 from utils.persian_text import fix_persian_text, configure_persian_matplotlib
 
-# Configure matplotlib for Persian text support
+# Persian text tooye nemoodara
 configure_persian_matplotlib()
 
 Nodes = Load_JSON('Outputs/Aggregated_Nodes.json')
@@ -105,4 +105,5 @@ print('\n' + '='*70)
 print('Embeddings saved! You can now run:')
 print('  python integrate_with_existing.py')
 print('to identify research hubs and key individuals.')
+
 print('='*70)
